@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{33F49776-5C49-44E6-BD7F-E597F6D46906}|Default">
+  <MonoDevelop.Ide.ItemProperties.TimeTracker PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TimeTracker/TimeTrackerController.cs">
     <Files>
-      <File FileName="TimeTracker/TimeTrackerView.cs" Line="1" Column="1" />
-      <File FileName="TimeTracker/TimeTrackerController.cs" Line="50" Column="10" />
+      <File FileName="TimeTracker/TimeTrackerView.cs" Line="60" Column="10" />
+      <File FileName="TimeTracker/TimeTrackerController.cs" Line="98" Column="55" />
+      <File FileName="TimeTracker/TimeTrackerModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TimeTracker PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
