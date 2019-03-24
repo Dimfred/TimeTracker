@@ -104,14 +104,14 @@ namespace TimeTracker
 
         public void ListViewItem_Selected(object sender, EventArgs e)
         {
-            Counting = false;
-            if (Current_TI != null)
+            if (Current_TI != null && Counting)
             {
+                Counting = false;
                 timer.Stop();
                 ConfigHandler.UpdateItem(Current_TI);
                 Current_LVI.SubItems[1].Text = Current_TI.Time.ToString();
+                View.bt_start_stop.Text = "Start";
             }
-            View.bt_start_stop.Text = "Start";
 
             foreach (ListViewItem lvItem in View.lv_items.Items)
             {
