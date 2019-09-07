@@ -19,7 +19,7 @@ namespace TimeTracker
 
         public Label lb_time { get; set; }
 
-        public TextBox tb_path_input { get; set; }
+        //public TextBox tb_path_input { get; set; }
         public TextBox tb_new_item_input { get; set; }
 
         private readonly string col_1_name = "Name";
@@ -124,17 +124,17 @@ namespace TimeTracker
             int x_tb_path_input = lb_time.Location.X;
             int y_tb_path_input = bt_start_stop.Location.Y;
             int w_tb_path_input = MIN_WIDTH - x_tb_path_input - 80;
-            tb_path_input = new TextBox()
-            {
-                Location = new Point(x_tb_path_input, y_tb_path_input),
-                Width = w_tb_path_input
-            };
-            tb_path_input.KeyDown += new KeyEventHandler(Controller.TB_PathInput_EnterPressed);
-            Controls.Add(tb_path_input);
+            //tb_path_input = new TextBox()
+            //{
+            //    Location = new Point(x_tb_path_input, y_tb_path_input),
+            //    Width = w_tb_path_input
+            //};
+            //tb_path_input.KeyDown += new KeyEventHandler(Controller.TB_PathInput_EnterPressed);
+            //Controls.Add(tb_path_input);
 
 
             int x_tb_new_item_input = x_tb_path_input;
-            int y_tb_new_item_input = y_tb_path_input + tb_path_input.Height;
+            int y_tb_new_item_input = y_tb_path_input;
             int w_tb_new_item_input = w_tb_path_input;
             tb_new_item_input = new TextBox()
             {

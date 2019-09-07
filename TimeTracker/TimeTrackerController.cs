@@ -44,8 +44,8 @@ namespace TimeTracker
         public void TimeTrackerView_Load(object sender, EventArgs e)
         {
             FillTrackedItemsListView();
-            RemoteConfig = ConfigHandler.GetConfigPath();
-            View.tb_path_input.Text = RemoteConfig;
+            //RemoteConfig = ConfigHandler.GetConfigPath();
+            //View.tb_path_input.Text = RemoteConfig;
 
         }
 
@@ -91,16 +91,7 @@ namespace TimeTracker
             }
         }
 
-        public void TB_PathInput_EnterPressed(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                string path = View.tb_path_input.Text;
-                path = path[path.Length - 1] == '/' ? path : path + "/";
-                ConfigHandler.AddNewConfigPath(path);
-                ConfigHandler.MoveTrackedItemsFile(path);
-            }
-        }
+ 
 
         public void ListViewItem_Selected(object sender, EventArgs e)
         {

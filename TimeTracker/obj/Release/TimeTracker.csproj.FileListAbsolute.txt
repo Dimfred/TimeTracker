@@ -1,0 +1,9 @@
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/bin/Release/TimeTracker.exe.config
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/bin/Release/TimeTracker.exe
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/bin/Release/TimeTracker.pdb
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.TimeTrackerView.resources
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.Properties.Resources.resources
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.csproj.GenerateResource.cache
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.csproj.CoreCompileInputs.cache
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.exe
+/media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.pdb

@@ -14,7 +14,6 @@ namespace TimeTracker
         private readonly XmlDocument trackedItemsDoc = new XmlDocument();
 
         private readonly XmlNode RootNode_Config;
-        private readonly XmlNode PathNode_Config;
         private readonly XmlNode RootNode_Tracked;
 
         public readonly string Config_Path = "Config.xml";
@@ -26,22 +25,14 @@ namespace TimeTracker
         private readonly string TrackedItems_RootName = "Tracked_Items";
 
         public ConfigHandler()
-        {
-            try
-            {
-                configDoc.Load(Config_Path);
-            }
-            catch (Exception)
-            {
-                CreateConfig();
-            }
+        { 
             RootNode_Config = configDoc.SelectSingleNode(Config_RootName);
-            PathNode_Config = RootNode_Config.SelectSingleNode(Config_PathName);
+            //PathNode_Config = RootNode_Config.SelectSingleNode(Config_PathName);
 
             try
             {
-                string pathToLoad = GetConfigPath() == null ? TrackedItems_FileName : GetConfigPath() + TrackedItems_FileName;
-                TrackedItems_Path = GetConfigPath() == null ? TrackedItems_Path : GetConfigPath();
+                string pathToLoad = TrackedItems_FileName;
+                TrackedItems_Path = "";
                 trackedItemsDoc.Load(pathToLoad);
             }
             catch (Exception)
@@ -49,17 +40,6 @@ namespace TimeTracker
                 CreateTracked();
             }
             RootNode_Tracked = trackedItemsDoc.SelectSingleNode(TrackedItems_RootName);
-        }
-
-        public void AddNewConfigPath(string path)
-        {
-            PathNode_Config.InnerText = path;
-            configDoc.Save(Config_Path);
-        }
-
-        public string GetConfigPath()
-        {
-            return PathNode_Config.InnerText == "" ? null : PathNode_Config.InnerText;
         }
 
         public void AddItem(TrackedItem item)
