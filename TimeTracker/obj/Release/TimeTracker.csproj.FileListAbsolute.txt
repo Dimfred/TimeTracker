@@ -7,3 +7,12 @@
 /media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.csproj.CoreCompileInputs.cache
 /media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.exe
 /media/01_Data/00_Workspaces/timetracker/TimeTracker/obj/Release/TimeTracker.pdb
+/home/dimfred/workspaces/my/timetracker/TimeTracker/bin/Release/TimeTracker.exe.config
+/home/dimfred/workspaces/my/timetracker/TimeTracker/bin/Release/TimeTracker.exe
+/home/dimfred/workspaces/my/timetracker/TimeTracker/bin/Release/TimeTracker.pdb
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.TimeTrackerView.resources
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.Properties.Resources.resources
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.csproj.GenerateResource.cache
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.csproj.CoreCompileInputs.cache
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.exe
+/home/dimfred/workspaces/my/timetracker/TimeTracker/obj/Release/TimeTracker.pdb

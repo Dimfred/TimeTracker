@@ -157,6 +157,10 @@ namespace TimeTracker
         private void Timer_Tick(object sender, EventArgs e)
         {
             Current_TI.Time.Count();
+            if( Current_TI.Time.Seconds == 0)
+            {
+                ConfigHandler.UpdateItem(Current_TI);
+            }
             View.lb_time.Text = Current_TI.Time.ToString();
         }
 

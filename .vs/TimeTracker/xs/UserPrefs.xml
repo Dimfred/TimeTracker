@@ -1,26 +1,31 @@
 ﻿<Properties StartupConfiguration="{33F49776-5C49-44E6-BD7F-E597F6D46906}|Default">
   <MonoDevelop.Ide.ItemProperties.TimeTracker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TimeTracker/ConfigHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimeTracker/TimeTrackerController.cs">
     <Files>
       <File FileName="TimeTracker/TimeTrackerView.cs" Line="60" Column="10" />
-      <File FileName="TimeTracker/TimeTrackerController.cs" Line="113" Column="51" />
+      <File FileName="TimeTracker/TimeTrackerController.cs" Line="163" Column="14" />
       <File FileName="TimeTracker/TimeTrackerModel.cs" Line="1" Column="1" />
-      <File FileName="TimeTracker/ConfigHandler.cs" Line="1" Column="1" />
+      <File FileName="TimeTracker/ConfigHandler.cs" Line="19" Column="31" />
+      <File FileName="TimeTracker/App.config" Line="1" Column="1" />
+      <File FileName="TimeTracker/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimeTracker" expanded="True">
             <Node name="TimeTracker" expanded="True">
-              <Node name="ConfigHandler.cs" selected="True" />
+              <Node name="TimeTrackerController.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
